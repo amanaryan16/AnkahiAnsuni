@@ -29,7 +29,7 @@ html,body{
 }
 
 
-/* ---------------Global Classes ---------- */
+
 
 a{
    text-decoration: none; 
@@ -83,9 +83,6 @@ p{
     color: var(--text-light);
 }
 
-/* ---------------Global Classes ---------- */
-
-/* ----------------Navbar------------- */
 
 .nav{
     background:var(--sky); 
@@ -166,7 +163,7 @@ p{
     color: #a1c4cf;
 }
 
-/* ----------------Navbar------------- */
+
 
 main .site-title{
     background:url('../assets/aerial-view-of-seashore-near-large-grey-rocks-853199.jpg');
@@ -274,30 +271,13 @@ main .post-content .post-title a{
     background: var(--sky);
 }
 
-.site-content .pagination{
-    justify-content: center;
-    color: var(--text-gray);
-    margin: 4rem 0;
-}
-
-.site-content .pagination a{
-    padding: .6rem .9rem;
-    border-radius: 2rem;
-    margin: 0 .3rem;
-    font-family: var(--Anton);
-}
-
-.site-content .pagination .pages{
-    background: var(--text-gray);
-    color:var(--white);
-}
 
 .site-content > .sidebar .category-list{
     font-family: var(--Abel);
 }
 
 .site-content > .sidebar .category-list .list-items{
-    background: var(--sky);
+    background: burlywood;
     padding: .4rem 1rem;
     margin: .8rem 0;
     border-radius: 3rem;
@@ -307,6 +287,9 @@ main .post-content .post-title a{
 }
 
 .site-content > .sidebar .category-list .list-items a{
+    color: black;
+}
+.site-content > .sidebar .category-list .list-items span{
     color: black;
 }
 
@@ -322,38 +305,21 @@ main .post-content .post-title a{
     font-size: 1rem;
 }
 
-/*.site-content .sidebar .newsletter{
-    padding-top: 10rem;
-}
-.site-content .sidebar .newsletter .form-element{
-    padding: .5rem 2rem;
-}
 
-.site-content .sidebar .newsletter .input-element{
-    width:80%;
-    height:1.9rem;
-    padding: .3rem .5rem;
-    font-family: var(--Sans);
-    font-size: 1rem;
-}
-
-.site-content .sidebar .newsletter .form-btn{
-    border-radius: 0;
-    padding:.8rem 32%;
-    margin: 1rem 0;
-    background: var(--sky);
-}*/
 
 .site-content .sidebar .popular-tags{
     padding: 5rem 0;
 }
 
 .site-content .sidebar .popular-tags .tags .tag{
-    background: var(--sky);
+    background: burlywood;
     padding: .4rem 1rem;
     border-radius: 3rem;
     margin: .4rem .6rem;
 
+}
+.site-content .sidebar .popular-tags .tags span{
+    color: black;
 }
 
 footer.footer{
@@ -376,27 +342,7 @@ footer.footer .container  h2{
     color: var(--white);
 }
 
-/*footer.footer .newsletter .form-element{
-    background: black;
-    display: inline-block;
-}
 
-footer.footer .newsletter .form-element input{
-    padding: .5rem .7rem;
-    border: none;
-    background: transparent;
-    color: white;
-    font-family: var(--Abel);
-    font-size: 1rem;
-    width:74%;
-}
-
-footer.footer .newsletter .form-element span{
-    background: var(--sky);
-    padding: .5rem .7rem;
-    cursor: pointer;
-
-}*/
 
 footer.footer .instagram div > img{
     display: inline-block;
@@ -426,7 +372,7 @@ footer.footer .move-up span:hover{
     cursor:pointer;
 }
 
-/*---------------------contact page------------------------*/
+
 .contact-section{
     background: url('../assets/Blog-post/vo\ mere\ apne\ the.jpg') no-repeat center;
     background-size: cover;
@@ -482,7 +428,7 @@ textarea.contact-form-text{
 .contact-form-btn:hover{
     background: green;
 }
-/*---------------------contact page------------------------*/
+
 
 
 
