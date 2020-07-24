@@ -19,6 +19,8 @@ html,body{
 
    
    --sky : linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+   --navback:linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+   --read: linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%);
 
 
     --Abel:'Abel',cursive;
@@ -85,7 +87,7 @@ p{
 
 
 .nav{
-    background:var(--sky); 
+    background:var(--navback); 
     padding: 0 2rem;
     height: 0rem;
     min-height: 10vh;
@@ -222,7 +224,7 @@ main .blog-content .blog-title{
 
 main .blog-content .btn-blog{
     padding: .7rem 2rem;
-    background: var(--sky);
+    background: var(--read);
     margin: .5rem;
 }
 
@@ -268,7 +270,7 @@ main .post-content .post-title a{
 .site-content .post-content .post-title .post-btn{
     border-radius:0;
     padding:.7rem 1.5rem;
-    background: var(--sky);
+    background: var(--read);
 }
 
 
@@ -277,7 +279,7 @@ main .post-content .post-title a{
 }
 
 .site-content > .sidebar .category-list .list-items{
-    background: burlywood;
+    background: var(--navback);
     padding: .4rem 1rem;
     margin: .8rem 0;
     border-radius: 3rem;
@@ -312,7 +314,7 @@ main .post-content .post-title a{
 }
 
 .site-content .sidebar .popular-tags .tags .tag{
-    background: burlywood;
+    background: var(--navback);
     padding: .4rem 1rem;
     border-radius: 3rem;
     margin: .4rem .6rem;
@@ -371,69 +373,6 @@ footer.footer .move-up span:hover{
     color:var(--white);
     cursor:pointer;
 }
-
-
-.contact-section{
-    background: url('../assets/Blog-post/vo\ mere\ apne\ the.jpg') no-repeat center;
-    background-size: cover;
-    padding: 40px 0;
-}
-.contact-section h1{
-    text-align: center;
-    color: #ddd;
-}
-.border{
-    width:150px;
-    height: 5px;
-    background: burlywood;
-    margin: 40px auto;
-}
-.contact-form{
-    max-width: 600px;
-    margin: auto;
-    padding: 0 10px;
-    overflow:hidden;
-}
-
-.contact-form-text{
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 16px 0;
-    border: 0;
-    background: var(--bg-color);
-    padding: 20px 40px;
-    outline: none;
-    color: #ddd;
-    transition: 0.5s;
-}
-.contact-form-text:hover{
-    box-shadow: 0 0 10px 4px #8de7c9;
-}
-textarea.contact-form-text{
-    resize: none;
-    height: 120px;
-}
-
-.contact-form-btn{
-    float: right;
-    border: 0;
-    background: var(--white);
-    color:var(--bg-color);
-    padding: 12px 50px;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.contact-form-btn:hover{
-    background: green;
-}
-
-
-
-
-
-
 
 @media only screen and (max-width:1130px){
     footer.footer .container{
