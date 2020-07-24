@@ -187,7 +187,7 @@ main .site-title h1,h3{
 
 main .site-title .btn{
     margin: 1.8rem;
-    background: var(--sky);
+    background: var(--read);
 }
 
 main .site-title .btn:hover{
